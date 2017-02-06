@@ -26,4 +26,4 @@ setup(name='ansi',
       """,
       classifiers=[],
       )
-#python setup.py sdist --formats=zip,gztar && python setup.py  register && python  setup.py sdist upload
+#python setup.py sdist --formats=zip,gztar  && python setup.py sdist upload
