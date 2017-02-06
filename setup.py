@@ -1,16 +1,16 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '0.0.1'
 
 install_requires=[
     # -*- Extra requirements: -*-
+
 ],
 
-long_desc="""help create file tree for ansible""",
+long_desc="""help create file tree for ansible"""
 
 setup(name='ansi',
-      version=version,
+      version="0.0.1",
       description="ansible scaffold",
       long_description=long_desc,
       keywords='ansible scaffold',
