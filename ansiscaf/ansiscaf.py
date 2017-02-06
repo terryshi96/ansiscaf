@@ -66,7 +66,7 @@ class scaffold():
         if len(sys.argv) > 3:
             print("error argv number,please check")
             exit(1)
-        parser = argparse.ArgumentParser(usage="ansit [opt] [argv]",description='ansible scaffold')
+        parser = argparse.ArgumentParser(usage="ansiscaf [opt] [argv]",description='ansible scaffold')
         parser.add_argument('-new', action="store", dest="project",help="create file tree")
         parser.add_argument('-add', action="store", dest="role",help="create role dir tree")
         parser.add_argument('-rm', action="store", dest="dir",help="delete all empty dir")

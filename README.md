@@ -7,7 +7,7 @@ pip install ansi
 
 ##Usage
 ```
-1 ansit -new [project name]
+1 ansiscaf -new [project name]
 create file tree
 project_name
     -->group_vars(dir)
@@ -25,12 +25,12 @@ project_name
             -->vars
 
 
-2 ansit -add [role name]
+2 ansiscaf -add [role name]
  create role dir tree
 
-3 ansit -rm [dir name]
+3 ansiscaf -rm [dir name]
 delete all empty dir
 
-4 ansit -h
+4 ansiscaf -h
 help
 ```
