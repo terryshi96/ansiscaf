@@ -1,8 +1,8 @@
-# ansi
+# ansiscaf
 
 ##Install
 ```
-pip install ansi
+pip install ansiscaf
 ```
 
 ##Usage
