@@ -10,7 +10,7 @@ install_requires=[
 long_desc="""help create file tree for ansible"""
 
 setup(name='ansiscaf',
-      version="0.0.1",
+      version="0.0.2",
       description="ansible scaffold",
       long_description=long_desc,
       keywords='ansible scaffold',
