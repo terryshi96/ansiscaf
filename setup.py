@@ -10,7 +10,7 @@ install_requires=[
 long_desc="""help create file tree for ansible"""
 
 setup(name='ansiscaf',
-      version="0.0.2",
+      version="0.0.3",
       description="ansible scaffold",
       long_description=long_desc,
       keywords='ansible scaffold',
@@ -21,9 +21,11 @@ setup(name='ansiscaf',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
       include_package_data=True,
       install_requires=install_requires,
-      entry_points="""
-      # -*- Entry points: -*-
-      """,
+      entry_points={
+            "console_scripts": [
+                  "ansiscaf = ansiscaf:main",
+            ],
+      },
       classifiers=[],
       )
 #python setup.py sdist --formats=zip,gztar  && python setup.py sdist upload
