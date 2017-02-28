@@ -1,4 +1,4 @@
-# ansiscaf
+# ansiscaf --ansible project scaffold
 
 ##Install
 ```
