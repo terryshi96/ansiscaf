@@ -1,11 +1,11 @@
 # ansiscaf --ansible project scaffold
 
-##Install
+## Install
 ```
 pip install ansiscaf
 ```
 
-##Usage
+## Usage
 ```
 1 ansiscaf -new [project name]
 create file tree
